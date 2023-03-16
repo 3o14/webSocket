@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Chatting
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+    body
+        main
+        form#nick
+                input(type="text", placeholder="choose a nickname", required)
+                button 저장
+            ul
+            form#message
+                input(type="text", placeholder="write a msg", required)
+                button 전송
+        script(src="/public/js/app.js") 
